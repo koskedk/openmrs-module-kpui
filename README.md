@@ -1,4 +1,4 @@
-KenyaUI OpenMRS Module
+KPUI OpenMRS Module
 ======================
 <a href="http://ci.kenyaemr.org/viewType.html?buildTypeId=bt2"><img src="http://ci.kenyaemr.org/app/rest/builds/buildType:kenyaui_mvn/statusIcon"/></a>
 

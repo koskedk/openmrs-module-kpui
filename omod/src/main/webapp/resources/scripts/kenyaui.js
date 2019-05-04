@@ -158,7 +158,7 @@ jQuery(function() {
 	function createButton(id, label, icon) {
 		var html = '<button type="button" id="' + id + '">';
 		if (icon) {
-			html += '<img src="' + ui.resourceLink('kenyaui', 'images/glyphs/' + icon + '.png') + '" /> '
+			html += '<img src="' + ui.resourceLink('kpui', 'images/glyphs/' + icon + '.png') + '" /> '
 		}
 		html += label + '</button>';
 		return html;
@@ -234,7 +234,7 @@ jQuery(function() {
 		var defaults = { heading: null, message: null };
 		var options = options ? $.extend(defaults, options) : defaults;
 
-		var html = '<div class="ke-panel-content" style="text-align: center; padding: 10px"><img src="' + ui.resourceLink('kenyaui', 'images/loading.gif') + '"/>';
+		var html = '<div class="ke-panel-content" style="text-align: center; padding: 10px"><img src="' + ui.resourceLink('kpui', 'images/loading.gif') + '"/>';
 		if (options.message) {
 			html += '<br /><br />' + options.message;
 		}
@@ -303,7 +303,7 @@ jQuery(function() {
 		var defaults = { heading: null, width: null, height: null, scrolling: false };
 		options = options ? $.extend(defaults, options) : defaults;
 
-		var tmpContent = '<div class="ke-panel-content" style="text-align: center; padding: 10px"><img src="' + ui.resourceLink('kenyaui', 'images/loading.gif') + '"/>';
+		var tmpContent = '<div class="ke-panel-content" style="text-align: center; padding: 10px"><img src="' + ui.resourceLink('kpui', 'images/loading.gif') + '"/>';
 
 		kenyaui.openPanelDialog({ heading: options.heading, content: tmpContent, width: options.width, height: options.height });
 

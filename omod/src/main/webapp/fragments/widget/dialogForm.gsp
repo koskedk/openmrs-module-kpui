@@ -26,10 +26,10 @@
 			${ onOpenCallback }
 		"""
 
-		print ui.includeFragment("kenyaui", "widget/button", config.buttonConfig)
+		print ui.includeFragment("kpui", "widget/button", config.buttonConfig)
 	}
 %>
 
 <div id="${ config.id }_form" title="${ ui.escapeAttribute(dialogHeading) }" style="display: none">
-	${ ui.includeFragment("kenyaui", "widget/panelForm", config) }
+	${ ui.includeFragment("kpui", "widget/panelForm", config) }
 </div>
